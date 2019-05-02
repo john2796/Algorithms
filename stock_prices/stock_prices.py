@@ -24,3 +24,17 @@ if __name__ == '__main__':
 
     print("A profit of ${profit} can be made from the stock prices {prices}.".format(
         profit=find_max_profit(args.integers), prices=args.integers))
+
+    # -------------------------- test_find_max_profit --------------------------
+# function test_find_max_profit(prices){
+#   let min_price = prices[0]
+#   let max_profit = prices[1] - min_price
+
+#   for(let i = 1; i < prices.length; i++){
+#     let price = prices[i]
+#     max_profit = Math.max(price - min_price, max_profit)
+#     min_price = Math.min(price, min_price)
+#   }
+#   return max_profit
+# }
+# test_find_max_profit([10, 7, 5, 8, 11, 9])
